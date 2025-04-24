@@ -1,4 +1,5 @@
 {
+	"initialMessage" : "Hi  Susan George Congratulations on your booking, We're excited to have you onboard 🎉",
 	"conversations": [
 		{
 			"keywords": ["thank", "thanks", "thank you", "thankyou"],
