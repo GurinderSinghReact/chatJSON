@@ -1,0 +1,133 @@
+{
+	"conversations": [
+		{
+			"keywords": ["thank", "thanks", "thank you", "thankyou"],
+			"responses": [
+				{
+					"type": "text",
+					"text": "You're welcome Is there anything I can assist you with today?"
+				}
+			]
+		},
+		{
+			"keywords": ["payment", "payment plan", "share"],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Of course Susan! Here's the plan for your reference"
+				},
+				{
+					"type": "pdf",
+					"text": "",
+					"filename": "Payment Plan.pdf",
+					"filesize": "1.3 MB",
+					"pdfUrl": ""
+				},
+				{
+					"type": "text",
+					"text": "By the way, are you planning to go for a home loan or will you be self-funding?"
+				}
+			]
+		},
+		{
+			"keywords": ["home loan", "loan"],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Got it! Would you like an NOC for the loan? Also, let me know if you need any other documents."
+				}
+			]
+		},
+		{
+			"keywords": [
+				"documents",
+				"what all documents",
+				"required documents",
+				"provide documents"
+			],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Based on what most banks usually ask, here's a list. Let me know if your bank needs anything else:\n\n• NOC\n• Developer's PAN Card\n• RERA Certificate\n• Company Incorporation Document\n• Allotment or Agreement Letter"
+				}
+			]
+		},
+		{
+			"keywords": ["payment receipts", "payment proof", "receipts", "banks often ask"],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Absolutely! Once I have them, I'll share. For now, I can send you the booking amount receipt — shall I?"
+				}
+			]
+		},
+		{
+			"keywords": ["no", "that's okay", "not needed", "later"],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Noted. Just to keep you in the loop — I'll also update you on payment reminders and construction progress."
+				}
+			]
+		},
+		{
+			"keywords": [
+				"construction update",
+				"construction status",
+				"progress",
+				"current construction"
+			],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Sure! Here you go..."
+				},
+				{
+					"type": "video",
+					"text": "",
+					"filename": "Construction.mp4",
+					"filesize": "8.5 MB",
+					"duration": "14s",
+					"fileUrl": "construction_video.mp4"
+				}
+			]
+		},
+		{
+			"keywords": [
+				"layout",
+				"floor plan",
+				"design",
+				"questions about layout"
+			],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Of course, Susan! I'll schedule a call with Ray from Design at 6:00 PM today. Would that work for you?"
+				}
+			]
+		},
+		{
+			"keywords": [
+				"yes",
+				"that works",
+				"6pm works",
+				"schedule confirmed"
+			],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Perfect! You're all set for 6 PM today, April 25th. Let me know if you need anything else."
+				}
+			]
+		},
+		{
+			"keywords": ["nothing", "nothing for now", "good for now"],
+			"responses": [
+				{
+					"type": "text",
+					"text": "Great! I'm here if anything comes up."
+				}
+			]
+		}
+	]
+}
